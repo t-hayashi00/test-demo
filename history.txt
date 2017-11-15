@@ -1,0 +1,17 @@
+  501  cd se/git/
+  502  mkdir test-demo
+  503  cd test-demo/
+  504  git --version
+  505  git init
+  506  vim README.md 
+  507  gradle -v
+  508  gradle init --type java-application
+  514  rm gradlew.bat
+  515  ls
+  516  vim .gitignore
+  517  vim .travis.yml
+  519  git add .
+  520  git commit -m "initial commit"
+  521  git remote add origin git@github.com:t-hayashi00/test-demo.git
+  522  git push -u origin master
+
