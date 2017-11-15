@@ -7,3 +7,4 @@ sudo: false
 
 script:
     - ./gradle clean build
+
